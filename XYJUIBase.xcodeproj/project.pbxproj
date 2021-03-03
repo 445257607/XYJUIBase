@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4C553AA225EFBE400072AA1C /* XYJUIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C553AA025EFBE400072AA1C /* XYJUIBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C553AB325EFC07A0072AA1C /* UIViewController+XYJUIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C553AB125EFC07A0072AA1C /* UIViewController+XYJUIBase.h */; };
+		4C553AB425EFC07A0072AA1C /* UIViewController+XYJUIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C553AB225EFC07A0072AA1C /* UIViewController+XYJUIBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C553A9D25EFBE400072AA1C /* XYJUIBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYJUIBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C553AA025EFBE400072AA1C /* XYJUIBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYJUIBase.h; sourceTree = "<group>"; };
 		4C553AA125EFBE400072AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C553AB125EFC07A0072AA1C /* UIViewController+XYJUIBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XYJUIBase.h"; sourceTree = "<group>"; };
+		4C553AB225EFC07A0072AA1C /* UIViewController+XYJUIBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XYJUIBase.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				4C553AA025EFBE400072AA1C /* XYJUIBase.h */,
 				4C553AA125EFBE400072AA1C /* Info.plist */,
+				4C553AB125EFC07A0072AA1C /* UIViewController+XYJUIBase.h */,
+				4C553AB225EFC07A0072AA1C /* UIViewController+XYJUIBase.m */,
 			);
 			path = XYJUIBase;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C553AB325EFC07A0072AA1C /* UIViewController+XYJUIBase.h in Headers */,
 				4C553AA225EFBE400072AA1C /* XYJUIBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C553AB425EFC07A0072AA1C /* UIViewController+XYJUIBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
